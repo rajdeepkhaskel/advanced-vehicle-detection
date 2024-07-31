@@ -1,0 +1,30 @@
+path : /path/to/data   # add the path to the data
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+
+# Classes
+names:
+  0: car
+  1: bike
+  2: auto
+  3: rickshaw
+  4: cycle
+  5: bus
+  6: minitruck
+  7: truck
+  8: van
+  9: taxi
+  10: motorvan
+  11: toto
+  12: train
+  13: boat
+  14: Car
+
+# Augmentation settings
+augment:
+  flipud: 0.2
+  fliplr: 0.5
+  mosaic: 0.8
+  hsv_h: 0.015
+  hsv_s: 0.5
+  hsv_v: 0.3
